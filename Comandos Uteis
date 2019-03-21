@@ -3,3 +3,6 @@ _ npm install -g json-server
 
 Comando para Rodar o json-server
 _json-server db.json
+
+Criando arquivo em Angular
+_ ng g c restaurant-detail --spec=false
