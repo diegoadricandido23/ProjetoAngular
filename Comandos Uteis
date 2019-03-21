@@ -1,0 +1,5 @@
+Comando para instalar o Json Server
+_ npm install -g json-server
+
+Comando para Rodar o json-server
+_json-server db.json
