@@ -2,9 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { RouterModule, PreloadAllModules } from '@angular/router';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {LocationStrategy, HashLocationStrategy} from '@angular/common';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms'
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import {LocationStrategy, HashLocationStrategy} from '@angular/common'
 
 import {ROUTES} from './app.routes'
 
@@ -22,12 +22,7 @@ import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component'
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
 
 import {SharedModule} from './shared/shared.module';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { InputComponent } from './shared/src/app/shared/input/input.component';
-import { MessagesComponent } from './shared/src/app/shared/messages/messages.component';
-import { RadioComponent } from './shared/src/app/shared/radio/radio.component';
-import { RatingComponent } from './shared/src/app/shared/rating/rating.component';
-import { SnackbarComponent } from './shared/messages/src/app/shared/messages/snackbar/snackbar.component'
+import { NotFoundComponent } from './not-found/not-found.component'
 
 @NgModule({
   declarations: [
@@ -42,12 +37,7 @@ import { SnackbarComponent } from './shared/messages/src/app/shared/messages/sna
     MenuItemComponent,
     ReviewsComponent,
     OrderSummaryComponent,
-    NotFoundComponent,
-    InputComponent,
-    MessagesComponent,
-    RadioComponent,
-    RatingComponent,
-    SnackbarComponent
+    NotFoundComponent
    ],
   imports: [
     BrowserModule,

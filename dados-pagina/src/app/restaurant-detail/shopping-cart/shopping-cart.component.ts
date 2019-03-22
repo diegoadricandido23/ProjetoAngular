@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-//import {trigger, state, style, transition, animate, keyframes} from '@angular/animations'
+import {trigger, state, style, transition, animate, keyframes} from '@angular/animations'
 
 import {ShoppingCartService} from './shopping-cart.service'
 
 @Component({
   selector: 'mt-shopping-cart',
   templateUrl: './shopping-cart.component.html',
-  /*animations: [
+  animations: [
     trigger('row', [
       state('ready', style({opacity: 1})),
       transition('void => ready', animate('300ms 0s ease-in', keyframes([
@@ -20,7 +20,7 @@ import {ShoppingCartService} from './shopping-cart.service'
         style({opacity:0, transform: 'translateX(30px)', offset:1})
       ])))
     ])
-  ]*/
+  ]
 })
 export class ShoppingCartComponent implements OnInit {
 
